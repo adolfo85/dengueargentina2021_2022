@@ -1,0 +1,17 @@
+# conda env create --file environment.yml
+name: análisis_de_dengue_en_argentina_2021_2022
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.7
+  - pip:
+    - pyhere
+    
